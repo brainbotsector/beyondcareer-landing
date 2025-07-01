@@ -70,7 +70,7 @@ const Hero = () => {
             {/* Empowering Your{' '} */}
             <span className="hero-title-gradient">All About Your Dreams</span>
             <br />
-             Beyond Limits
+             Elevate
           </motion.h1>
 
           {/* Subtitle */}
