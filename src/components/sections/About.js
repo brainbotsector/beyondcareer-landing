@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
 import { FaLightbulb, FaUsers, FaHandshake, FaGraduationCap, FaRocket, FaHeart, FaChevronRight, FaPlay } from 'react-icons/fa';
-
+import Image from 'next/image';
 const About = () => {
   const [activeCard, setActiveCard] = useState(null);
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
@@ -145,7 +145,7 @@ const About = () => {
                       <FaPlay />
                     </motion.button>
                   </div>
-                  <img 
+                  <Image
                     src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3RhcnR1cHxlbnwwfHwwfHx8MA%3D%3D" 
                     alt="IIT Kharagpur campus and students collaborating" 
                     className="story-image"
