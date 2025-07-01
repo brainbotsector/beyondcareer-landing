@@ -146,7 +146,7 @@ const About = () => {
                     </motion.button>
                   </div>
                   <Image
-                    src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3RhcnR1cHxlbnwwfHwwfHx8MA%3D%3D" 
+                    src="https://plus.unsplash.com/premium_photo-1678453146852-63702e69c26d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
                     alt="IIT Kharagpur campus and students collaborating" 
                     className="story-image"
                   />
