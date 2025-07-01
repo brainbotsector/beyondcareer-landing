@@ -18,7 +18,7 @@ const testimonials = [
     role: "Product Manager at Microsoft",
     company: "Microsoft",
     content: "The internship opportunities provided by Beyond Career were instrumental in building my resume. I got to work with two startups and a Fortune 500 company before graduation! The network and connections I built were invaluable.",
-    image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
+    image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&h=150&fit=crop&crop=face",
     rating: 5,
     achievement: "3 Internships",
     location: "Seattle, USA"
@@ -417,24 +417,7 @@ const TestimonialsSection = () => {
                   e.currentTarget.style.border = '1px solid rgba(255, 255, 255, 0.1)';
                 }}
               >
-                {/* Quote Icon */}
-                <div style={{
-                  position: 'absolute',
-                  top: '-8px',
-                  left: '1.5rem',
-                  width: '32px',
-                  height: '32px',
-                  background: 'linear-gradient(135deg, #3b82f6, #8b5cf6)',
-                  borderRadius: '50%',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  boxShadow: '0 4px 15px rgba(59, 130, 246, 0.4)'
-                }}>
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="white">
-                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
-                  </svg>
-                </div>
+
 
                 {/* Achievement Badge */}
                 <div style={{
