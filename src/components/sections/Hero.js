@@ -68,7 +68,7 @@ const Hero = () => {
             transition={{ delay: 0.4, duration: 0.8 }}
           >
             {/* Empowering Your{' '} */}
-            <span className="hero-title-gradient">All About Your Dreams.</span>
+            <span className="hero-title-gradient">All About Your Dreams</span>
             <br />
              Beyond Limits
           </motion.h1>
