@@ -148,6 +148,8 @@ const About = () => {
                   <Image
                     src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
                     alt="IIT Kharagpur campus and students collaborating" 
+                    width={500}
+                    height={300}
                     className="story-image"
                   />
                   <div className="story-image-glow"></div>
