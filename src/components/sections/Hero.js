@@ -9,7 +9,6 @@ const Hero = () => {
   useEffect(() => {
     // Preload video for smooth experience
     const video = document.createElement('video');
-    video.src = '/videos/hero-bg.mp4';
     video.onloadeddata = () => setIsVideoLoaded(true);
   }, []);
 
@@ -27,15 +26,8 @@ const Hero = () => {
           muted
           playsInline
           className="hero-video"
-          poster="/images/hero-poster.jpg"
         >
-          <source src="/videos/hero-bg.mp4" type="video/mp4" />
-          {/* Fallback image */}
-          <img
-            src="/images/hero-bg.jpg"
-            alt="Students collaborating"
-            className="hero-fallback-image"
-          />
+          <source type="video/mp4" />
         </video>
 
         {/* Floating particles animation */}
