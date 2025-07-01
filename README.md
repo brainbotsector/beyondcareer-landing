@@ -1,42 +1,73 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+#  BeyondCareer Landing Page
 
-## Getting Started
+Landing page built with **Next.js 15**, showcasing the mission, vision, and services of **Beyond Career**, demonstrating clean file structure, animations with `framer-motion`, and responsive design principles.
 
-First, run the development server:
+
+##  Tech Stack
+
+- **Framework**: [Next.js 15](https://nextjs.org/)
+- **Animation**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [React Icons](https://react-icons.github.io/react-icons/)
+- **Intersection Observer**: For scroll-triggered animations
+- **EmailJS**: [@emailjs/browser](https://www.emailjs.com/docs/sdk/send-form/) (installed but not used — awaiting verified email)
+
+##  Features
+
+- Animated landing sections (Hero, About, Contact)
+- Responsive and mobile-friendly
+- Modular component structure
+- SEO & performance-friendly setup
+- Minimal external dependencies
+
+##  Setup Instructions
+
+1. Clone the Repository
+
+```bash
+git clone https://github.com/brainbotsector/beyondcareer-landing.git
+cd beyondcareer-landing
+```
+
+2. Install Dependencies
+
+```bash
+npm install
+```
+
+3. Run the Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+Open http://localhost:3000 in your browser to see the result.
+
+4. Build for Production
+
+```bash
+npm run build
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##  Environment Setup
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+  - Ensure have the following installed:
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+    > Node.js >= 18
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+    > npm >= 9
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+    > Internet access (for downloading image assets & fonts)
 
-## Learn More
+   - Optional:
 
-To learn more about Next.js, take a look at the following resources:
+     > ESLint plugin for your IDE for linting consistency
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+##  Styling Details
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   - globals.css: Used for major sections like About, Hero, and Contact
 
-## Deploy on Vercel
+   - Inline Styles: Used for Testimonials, Services, Navbar, and Footer due to time constraints
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+##  EmailJS (Optional Integration)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
-=======
+   The @emailjs/browser package is installed for future contact form integration. However, it's not currently functional due to missing verified sender email.
